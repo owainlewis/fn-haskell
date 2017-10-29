@@ -49,9 +49,6 @@ import Servant.Client (Scheme(Http), ServantError, client)
 import Servant.Common.BaseUrl (BaseUrl(..))
 import Web.HttpApiData
 
-
-
-
 -- For the form data code generation.
 lookupEither :: FromHttpApiData b => Text -> [(Text, Text)] -> Either String b
 lookupEither key assocs =
