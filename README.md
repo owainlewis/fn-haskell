@@ -1,18 +1,4 @@
-# Auto-Generated Swagger Bindings to `Fn`
-
-The library in `lib` provides auto-generated-from-Swagger bindings to the Fn API.
-
-## Installation
-
-Installation follows the standard approach to installing Stack-based projects.
-
-1. Install the [Haskell `stack` tool](http://docs.haskellstack.org/en/stable/README).
-2. Run `stack install` to install this package.
-
-## Main Interface
-
-The main interface to this library is in the `Fn.API` module, which exports the FnBackend type. The FnBackend
-type can be used to create and define servers and clients for the API.
+# Haskell Bindings to `Fn`
 
 ## Creating a Client
 
